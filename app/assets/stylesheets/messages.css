@@ -17,6 +17,35 @@
   width: 300px;
   height: 100px;
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-name{
+
+  display: flex;
+  align-items: center;
+  /* background-color: turquoise; */
+}
+
+.header-name a{
+  color: #FAFAFA;
+  text-decoration: none;
+}
+
+.create-room{
+  border: lightblue solid 1px;
+  padding: 14px;
+  margin: 26px 0;
+  display: flex;
+  align-items: center;
+  /* background-color: tomato; */
+}
+
+.create-room a{
+  color: deepskyblue;
+  text-decoration: none;
+  font-size: 10px;
 }
 
 .rooms{
@@ -24,6 +53,16 @@
   width: 300px;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll
+}
+
+.room-name{
+  padding: 20px 0 40px 0;
+}
+
+.room-name a{
+  color: white;
+  text-decoration: none;
 }
 
 /*****************************************/
@@ -31,7 +70,7 @@
 /*****************************************/
 
 .chat{
-  background-color: tomato;
+  /* background-color: tomato; */
   width: calc(100vw - 300px);
   height: 100vh;
 }
@@ -44,8 +83,8 @@
 }
 
 .messages{
-  /* background-color: #FAFAFA; */
-  background-color: tomato;
+  background-color: #FAFAFA;
+  /* background-color: tomato; */
   width: 100%;
   height: calc(100vh - 100px - 90px);
   padding: 46px 40px 0;
