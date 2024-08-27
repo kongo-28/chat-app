@@ -1,68 +1,50 @@
-.wrapper{
+.wrapper {
   display: flex;
 }
 
-/*****************************************/
-/*****************サイドバー****************/
-/*****************************************/
-
-.side_bar{
+.side-bar {
   background-color: #253141;
   width: 300px;
   height: 100vh;
 }
 
-.side-bar-header{
-  background-color: #253141;
-  width: 300px;
+.side-bar-header {
   height: 100px;
   padding: 0 20px;
+  background-color: #253141;
   display: flex;
   justify-content: space-between;
-}
-
-.header-name{
-
-  display: flex;
   align-items: center;
-  /* background-color: turquoise; */
 }
 
 .header-name a{
+  font-size: 16px;
   color: #FAFAFA;
   text-decoration: none;
 }
 
-.create-room{
-  border: lightblue solid 1px;
+.create-room a {
+  font-size: 10px;
+  border: 1px solid lightblue;
   padding: 14px;
-  margin: 26px 0;
-  display: flex;
-  align-items: center;
-  /* background-color: tomato; */
-}
-
-.create-room a{
   color: deepskyblue;
   text-decoration: none;
-  font-size: 10px;
 }
 
-.rooms{
-  background-color: #2f3E51;
-  width: 300px;
+.rooms {
+  background-color: #2F3E51;
   height: calc(100vh - 100px);
   padding: 0 20px;
-  overflow: scroll
+  overflow: scroll;
 }
 
-.room-name{
-  padding: 20px 0 40px 0;
+.room {
+  padding: 20px 0 40px;
 }
 
-.room-name a{
-  color: white;
+.room-name a {
   text-decoration: none;
+  color: white;
 }
 
 /*****************************************/
