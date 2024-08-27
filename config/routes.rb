@@ -5,5 +5,7 @@ Rails.application.routes.draw do
   #自分で追加
 
   root to: "messages#index"
+
+  resources :users, only: [:edit, :update]
   
 end
