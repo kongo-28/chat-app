@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   devise_for :users  
   #自分で追加
 
-  root to: "messages#index"
+  root to: "rooms#index"
 
   resources :users, only: [:edit, :update]
   resources :rooms, only: [:new, :create]
